@@ -6,7 +6,7 @@ Locate your include path, in my case: `LOCAL_INCLUDE=${HOME}/.local/include/`.
 Emplace the header: `${LOCAL_INCLUDE}/enumerate/enumerate.hpp`.
 
 ## Example Usage
-Using your compile command, in my case: `(CPP_CMD=g++ --std=c++2b -g -Wall -Wextra -Wpedantic)` compile like:
+Using your compile command, in my case: `CPP_CMD=(g++ --std=c++2b -g -Wall -Wextra -Wpedantic)` compile like:
 
 ```bash
 $ ${CPP_CMD} -I"${LOCAL_INCLUDE}/enumerate" example.cpp -o example
